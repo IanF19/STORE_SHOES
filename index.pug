@@ -1,0 +1,61 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link( type="text/css" rel="stylesheet", href="CSS/styles.css")
+        title Tienda Zapatos
+    body 
+      main.content
+        header.header
+          hgroup.header__hgroup
+            h1.header__title!= `tienda Zapatos`
+        section.section
+          section.section__left.left
+            figure.left__figure
+              img(src = "img/producto1.jpeg" alt="productoA")
+            figure.left__figure
+              img(src = "img/producto2.jpeg" alt="productoB")
+            figure.left__figure
+              img(src = "img/producto3.jpeg" alt="productoC")
+            figure.left__figure
+              img(src = "img/producto4.jpeg" alt="productoD")
+            figure.left__figure
+              img(src = "img/producto5.jpeg" alt="productoE")
+            figure.left__figure
+              img(src = "img/producto5.jpeg" alt="productoF")
+            figure.left__figure
+              img(src = "img/producto5.jpeg" alt="productoG")
+          section.section__center.center
+            figure.center__figure
+              img#imgP(src= "img/producto4.jpeg" alt="productoA")
+            h2.center__label!='★ Altamente valorado'
+          section.section__right.right
+            hgroup.right__hgroup
+              h1.right__title!= `Nick Dune`
+              h2.right__subtitle!= `Tenis para hombre`
+              h3.right__price!= `$2999`
+            article.right__models
+              figure.right__figure
+                img(src="img/producto2.jpeg", alt="ProductoA")
+              figure.right__figure
+                img(src="img/producto3.jpeg", alt="ProductoB")
+              figure.right__figure
+                img(src="img/producto4.jpeg", alt="ProductoC")
+              figure.right__figure
+                img(src="img/producto5.jpeg", alt="ProductoD")
+              figure.right__figure
+                img(src="img/producto5.jpeg", alt="ProductoE")
+              figure.right__figure
+                img(src="img/producto5.jpeg", alt="ProductoF")
+              figure.right__figure
+                img(src="img/producto5.jpeg", alt="ProductoG")
+              figure.right__figure
+                img(src="img/producto5.jpeg", alt="ProductoH")
+            article.right__sizes.sizes
+              h3.sizes__label!= `Selecciona tu talla`
+              h3.sizes__label!= `Guia de tallas`
+              h3.sizes__label!= `CM 24`
+              h3.sizes__label!= `CM 25`
+              h3.sizes__label!= `CM 26`
+              h3.sizes__label!= `CM 27`
